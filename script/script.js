@@ -51,5 +51,8 @@ for (i = 0; i < members.length; i++){
     console.log(members[i]);
 }
 
-//Stampo sul DOM le info di ogni membro 
-const memberPrint = document.getElementById('target')
+//Stampo sulla pagina le info di ogni membro
+const memberPrint = document.getElementById('target');
+for (i = 0; i < members.length; i++){
+    memberPrint.innerHTML += `${members[i].name} ${members[i].role} ${members[i].photo} <br>`
+}
