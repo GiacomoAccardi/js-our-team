@@ -9,3 +9,14 @@ BONUS-----------------------------------
 
 
 */
+
+//creo un array in cui inserire le info di ogni membro del team 
+const members = [
+    'Wayne Barnett', 
+    'Angela Caroll',
+    'Walter Gordon',
+    'Angela Lopez',
+    'Scott Estrada',
+    'Barbara Ramos'
+]
+console.log(members)
