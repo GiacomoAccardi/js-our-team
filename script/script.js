@@ -50,3 +50,6 @@ const members = [
 for (i = 0; i < members.length; i++){
     console.log(members[i]);
 }
+
+//Stampo sul DOM le info di ogni membro 
+const memberPrint = document.getElementById('target')
