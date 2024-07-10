@@ -43,5 +43,10 @@ const members = [
         role: 'Graphic Designer',
         photo: 'barbara-ramos-graphic-designer.jpg'
     }
-    
+
 ]
+
+//Stampo su console le info di ogni membro 
+for (i = 0; i < members.length; i++){
+    console.log(members[i]);
+}
